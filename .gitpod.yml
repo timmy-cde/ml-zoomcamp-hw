@@ -1,5 +1,5 @@
-# tasks:
-#   - name: env-setup
+tasks:
+   - name: env-setup
 #     init: |
 #       pyenv install 3.11 -y
 #       pyenv global 3.11
