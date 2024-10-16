@@ -2,8 +2,8 @@ tasks:
    - name: env-setup
      init: |
        pyenv install -s -f 3.11
+
+   - name: install-dependencies
+     before: |
        pyenv global 3.11
        pip install numpy pandas scikit-learn seaborn jupyter
-#   - name: jupyter-start
-#     before: |
-#       jupyter lab
