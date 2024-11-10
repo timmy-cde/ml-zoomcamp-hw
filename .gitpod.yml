@@ -3,4 +3,4 @@ tasks:
     init: |
       pyenv install -s -f 3.11
       pyenv global 3.11
-      pip install numpy pandas scikit-learn seaborn jupyter tqdm flask gunicorn pipenv
+      pip install numpy pandas scikit-learn seaborn jupyter tqdm flask gunicorn pipenv xgboost
