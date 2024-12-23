@@ -1,5 +1,5 @@
 .ipynb_checkpoints/
 */**/.ipynb_checkpoints/
-.h5
-.keras
-.tflite
+*.h5
+*.keras
+*.tflite
